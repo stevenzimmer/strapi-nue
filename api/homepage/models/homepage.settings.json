@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepages",
+  "info": {
+    "name": "Homepage",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "metatitle": {
+      "type": "string"
+    },
+    "metadescription": {
+      "type": "string"
+    },
+    "herotitle": {
+      "type": "string"
+    }
+  }
+}
